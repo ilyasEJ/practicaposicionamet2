@@ -1,0 +1,134 @@
+/*Etiqueta que aplica un margin i un padding predefinit a tots els elements de la página*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Etiqueta que aplica un margin i un padding al body*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Apliquem estils per a la capcelera de la página*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10000;
+    width:100%;
+    height: 150px;
+    background-color:#3E5282;
+    color:#E6E2CB;
+    text-align:center;
+    line-height:90px;
+}
+/*Apliquem estils per a la barra de navegació de la página*/
+nav{
+    background-color:#343D60;
+    position:sticky;
+    line-height: 30px;
+    margin-left:0;
+    width:100%;
+
+/*Apliquem estils per a les llistes de la página*/
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+/*Apliquem estils per als elements de les llistes de la página*/
+nav ul li{
+    display:inline-block;
+    padding:20px;  
+    }
+
+/*Apliquem estils per als links dels elementes de les llistes de la página*/
+nav ul li a{
+    
+    display:block;
+    font-size:20px;
+    color:#E6E2CB;
+    width:100%;
+    text-decoration: none;
+    }
+
+/*Apliquem un estil hover per als elements de les llistes*/
+nav ul li:hover{
+    background-color:#E5E2CC;
+    color:#5A5952;
+    }
+/*Apliquem un estil hover per els links dels elements de les llistes*/
+nav ul li a:hover{
+    color:#5A5952;
+    }
+ /*Apliquem estils al primer section de la pàgina*/
+#section1{
+    background-color:#62605F;
+    color:black;
+    position:absolute;
+    top:200px;
+    left:20%;
+    width:60%;
+    padding:20px;
+}
+ /*Apliquem estils al segon section de la pàgina*/
+#section2{
+    background-color:#62605F;
+    color:black;
+    position:absolute;
+    top:400px;
+    left:20%;
+    width:60%;
+    padding:20px;
+}
+ /*Apliquem estils al tercer section de la pàgina*/
+#section3{
+    background-color:#62605F;
+    color:black;
+    position:absolute;
+    top:600px;
+    left:20%;
+    width:60%;
+    padding:20px;
+}
+ /*Apliquem estils al quart section de la pàgina*/
+#section4{
+    background-color:#62605F;
+    color:black;
+    position:absolute;
+    top:800px;
+    left:20%;
+    width:60%;
+    padding:20px;
+}
+/*Apliquem estils al footer de la pàgina*/
+footer{
+    background-color:#675977;
+    color:white;
+    font-weight:bold;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:2px;
+    text-align:center
+}
+  
+/*Apliquem estils al link del footer de la pàgina*/
+footer a{
+    text-decoration: none;
+    color:white;
+}
+/*Apliquem estils a la clase "caja"*/
+.caja{
+    background-color:white;
+    position:absolute;
+    top: 1000px;
+    height:3px;
+    left:20%;
+    width:60%;
+    padding:2px;
+    
+}
